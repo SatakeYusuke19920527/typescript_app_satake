@@ -101,6 +101,14 @@ function App() {
 
   console.log(Month.April);
 
+  // pra1
+  type MondaiType = {
+    id: number;
+    name: string;
+    url: string;
+    isStart: false;
+  };
+
   return (
     <div className="App">
       <header className="App-header">
