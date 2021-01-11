@@ -109,6 +109,20 @@ function App() {
     isStart: false;
   };
 
+  interface MondaiInterface {
+    id: number;
+    name: string;
+    url: string;
+    isStart: false;
+  }
+
+  const mondai: MondaiInterface = {
+    id: 1,
+    name: 'mondai',
+    url: 'https://mondai.com',
+    isStart: false,
+  };
+
   return (
     <div className="App">
       <header className="App-header">
